@@ -7,7 +7,7 @@ behaviors:
       learning_rate: 0.0003
       beta: 0.005
       epsilon: 0.25
-      lambd: 0.98
+      lambd: 0.96
       num_epoch: 4
       learning_rate_schedule: constant
     network_settings:
@@ -17,7 +17,7 @@ behaviors:
       vis_encode_type: simple
     reward_signals:
       extrinsic:
-        gamma: 0.92
+        gamma: 0.97
         strength: 1.0
     keep_checkpoints: 5
     max_steps: 6500000
